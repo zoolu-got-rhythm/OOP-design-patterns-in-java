@@ -1,5 +1,7 @@
 package builder_pattern;
 
+
+// could extend fields instead, and override methods
 public class LatteBuilder implements CoffeeBuilder{
 
     private String blend;
