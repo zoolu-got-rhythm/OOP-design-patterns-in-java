@@ -18,27 +18,27 @@ public class LatteBuilder implements CoffeeBuilder{
     // encapsulate setter 'params' to the concrete builder class so client doesn't need to -
     // know details
     @Override
-    public void setBlend() {
+    public void buildBlend() {
         this.blend = "arabic";
     }
 
     @Override
-    public void setMilk() {
+    public void buildMilk() {
         this.milk = "blue top";
     }
 
     @Override
-    public void addCream() {
+    public void buildCream() {
         this.hasCream = false;
     }
 
     @Override
-    public void addHoney() {
+    public void buildHoney() {
         this.hasHoney = true;
     }
 
     @Override
-    public void sugarTeaspoons() {
+    public void buildSugars() {
         this.sugar = 0;
     }
 
@@ -48,4 +48,23 @@ public class LatteBuilder implements CoffeeBuilder{
     }
 
 
+    public String getBlend() {
+        return blend;
+    }
+
+    public String getMilk() {
+        return milk;
+    }
+
+    public boolean isHasCream() {
+        return hasCream;
+    }
+
+    public boolean isHasHoney() {
+        return hasHoney;
+    }
+
+    public int getSugar() {
+        return sugar;
+    }
 }

@@ -1,10 +1,10 @@
 package builder_pattern;
 
 public interface CoffeeBuilder {
-    void setBlend();
-    void setMilk();
-    void addCream();
-    void addHoney();
-    void sugarTeaspoons();
+    void buildBlend();
+    void buildMilk();
+    void buildCream();
+    void buildHoney();
+    void buildSugars();
     CoffeeBuilder getCoffee();
 }

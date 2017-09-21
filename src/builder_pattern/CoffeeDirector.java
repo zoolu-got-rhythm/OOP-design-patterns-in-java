@@ -12,11 +12,23 @@ public class CoffeeDirector {
 
     public void buildCoffee() throws ClassNotFoundException {
         // build each part, call
-        coffeeBuilder.addCream();
-        coffeeBuilder.addHoney();
-        coffeeBuilder.setBlend();
-        coffeeBuilder.setMilk();
-        coffeeBuilder.sugarTeaspoons();
+//        coffeeBuilder.buildCream();
+//        coffeeBuilder.buildHoney();
+//        coffeeBuilder.buildBlend();
+//        coffeeBuilder.buildMilk();
+//        coffeeBuilder.buildSugars();
+
+        // invoke build methods using reflection instead
+        for(Method m : this.coffeeBuilder.getClass().getMethods()){
+            if(m.getName().contains("build"))
+                try {
+                    m.invoke(m.getName());
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (InvocationTargetException e) {
+                    e.printStackTrace();
+                }
+        }
     }
 
     public CoffeeBuilder getCoffeeBuilder() {
