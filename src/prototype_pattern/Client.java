@@ -2,16 +2,19 @@ package prototype_pattern;
 
 public class Client {
     public static void main(String[] args) {
-        Animal tricky = new Cat("siamese");
+        Cat tricky = new Cat("siamese");
         tricky.getOlder();
         tricky.getOlder();
+
         printAnimalInfo(tricky);
 
-        Animal trickyTwin = tricky.makeCopy();
-        printAnimalInfo(tricky);
+        Cat trickyTwin = tricky.makeCopy();
+
+        printAnimalInfo(trickyTwin);
+
     }
 
-    public static void printAnimalInfo(Animal animal){
+    public static void printAnimalInfo(Cat animal){
         System.out.println(animal.getClass());
         System.out.println(animal.getSpecies());
         System.out.println(animal.getAge());

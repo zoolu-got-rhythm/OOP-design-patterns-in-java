@@ -1,19 +1,33 @@
 package prototype_pattern;
 
-public class Cat extends Animal implements Prototype{
+public class Cat implements Prototype{
+    private String species;
+    private int age;
+
     public Cat(String species) {
-        super(species);
+        this.species = species;
     }
 
-    @Override
-    public Animal makeCopy() {
-        Animal copy = null;
+    public void getOlder(){
+        this.age++;
+    }
+
+    public int getAge(){
+        return this.age;
+    }
+
+
+    public String getSpecies(){
+        return this.species;
+    }
+
+    public Cat makeCopy() {
+        Cat copy = null;
         try {
-            copy = (Cat) super.();
+            copy = (Cat) super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
         return copy;
-    }
     }
 }

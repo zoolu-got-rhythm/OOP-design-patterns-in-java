@@ -1,14 +1,13 @@
 package prototype_pattern;
 
-public class Dog extends Animal implements Prototype {
+public class Dog implements Prototype {
+    private String species;
     public Dog(String species) {
-        super(species);
+        this.species = species;
     }
 
-
-    @Override
-    public Animal makeCopy() {
-        Animal copy = null;
+    public Dog makeCopy() {
+        Dog copy = null;
         try {
             copy = (Dog) super.clone();
         } catch (CloneNotSupportedException e) {
