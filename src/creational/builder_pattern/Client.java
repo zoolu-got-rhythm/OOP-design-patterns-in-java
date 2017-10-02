@@ -1,4 +1,4 @@
-package builder_pattern;
+package creational.builder_pattern;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

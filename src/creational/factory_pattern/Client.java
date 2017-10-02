@@ -1,4 +1,4 @@
-package factory_pattern;
+package creational.factory_pattern;
 
 import java.util.Scanner;
 

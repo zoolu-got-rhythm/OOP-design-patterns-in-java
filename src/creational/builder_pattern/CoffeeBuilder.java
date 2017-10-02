@@ -1,4 +1,4 @@
-package builder_pattern;
+package creational.builder_pattern;
 
 public interface CoffeeBuilder {
     void buildBlend();

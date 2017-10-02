@@ -1,4 +1,4 @@
-package prototype_pattern;
+package creational.prototype_pattern;
 
 public class Cat implements Prototype{
     private String species;

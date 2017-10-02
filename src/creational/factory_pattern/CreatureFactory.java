@@ -1,6 +1,4 @@
-package factory_pattern;
-
-import sun.font.CreatedFontTracker;
+package creational.factory_pattern;
 
 /**
  * Created by Slime on 02/09/2017.

@@ -1,4 +1,4 @@
-package builder_pattern;
+package creational.builder_pattern;
 
 
 // could extend fields instead, and override methods
