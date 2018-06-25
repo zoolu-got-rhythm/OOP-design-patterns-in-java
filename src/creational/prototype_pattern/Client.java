@@ -15,6 +15,7 @@ public class Client {
     }
 
     public static void printAnimalInfo(Cat animal){
+        // should be toString
         System.out.println(animal.getClass());
         System.out.println(animal.getSpecies());
         System.out.println(animal.getAge());
