@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9c28ae0-bce1-4484-a0eb-d1d94c8395f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/creational/object_pool_pattern/DoSomeComputationObjectPool.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/builder_pattern/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/builder_pattern/CoffeeBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/builder_pattern/CoffeeDirector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/builder_pattern/LatteBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/builder_pattern/notes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/factory_pattern/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/factory_pattern/Creature.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/factory_pattern/CreatureFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/factory_pattern/ForestCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/factory_pattern/SandCreature.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/factory_pattern/notes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/prototype_pattern/Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/prototype_pattern/Cat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/prototype_pattern/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/prototype_pattern/Dog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/design_patterns_experiments/prototype_pattern/Prototype.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/design_patterns_experiments/factory_pattern/CreatureFactoryTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational/object_pool_pattern/LockAbstraction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/creational/object_pool_pattern/Pool.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/object_pool_pattern/Obj.java" afterPath="$PROJECT_DIR$/src/creational/object_pool_pattern/Visitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/builder_pattern/Client.java" afterPath="$PROJECT_DIR$/src/creational/builder_pattern/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/object_pool_pattern/Client.java" afterPath="$PROJECT_DIR$/src/creational/object_pool_pattern/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/prototype_pattern/Client.java" afterPath="$PROJECT_DIR$/src/creational/prototype_pattern/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/generics/GenMethods.java" afterPath="$PROJECT_DIR$/src/generics/GenMethods.java" />
-    </list>
+    <list default="true" id="e9c28ae0-bce1-4484-a0eb-d1d94c8395f8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/creational/object_pool_pattern/notes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -56,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/creational/object_pool_pattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="humanBehaviourExampleClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="humanBehaviourExampleClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/humanBehaviourExampleClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="407">
-              <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+              <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
               <folding>
                 <element signature="e#964#965#0" expanded="true" />
                 <element signature="e#1017#1018#0" expanded="true" />
@@ -129,6 +102,16 @@
                 <element signature="e#1760#1761#0" expanded="true" />
                 <element signature="e#1802#1803#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,16 +131,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creational/factory_pattern/notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -281,34 +254,6 @@
             <path>
               <item name="design_patterns_experiments" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_patterns_experiments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns_experiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns_experiments" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns_experiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns_experiments" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns_experiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns_experiments" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns_experiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns_experiments" type="462c0819:PsiDirectoryNode" />
-              <item name="unit_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_patterns_experiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_patterns_experiments" type="462c0819:PsiDirectoryNode" />
-              <item name="unit_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1105,7 +1050,7 @@
       <workItem from="1528651126169" duration="574000" />
       <workItem from="1528665814719" duration="632000" />
       <workItem from="1528823577612" duration="792000" />
-      <workItem from="1529421648778" duration="18195000" />
+      <workItem from="1529421648778" duration="18715000" />
     </task>
     <servers />
   </component>
@@ -1118,7 +1063,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53571000" />
+    <option name="totallyTimeSpent" value="54091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1171,13 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/creational/builder_pattern/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational/factory_pattern/notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1479,7 +1417,7 @@
     <entry file="file://$PROJECT_DIR$/src/creational/factory_pattern/notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1495,7 +1433,7 @@
     <entry file="file://$PROJECT_DIR$/src/creational/object_pool_pattern/notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1519,7 +1457,7 @@
     <entry file="file://$PROJECT_DIR$/src/creational/object_pool_pattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1569,7 +1507,7 @@
     <entry file="file://$PROJECT_DIR$/src/behavioural/strategy/humanBehaviourExampleClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
-          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+          <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
             <element signature="e#964#965#0" expanded="true" />
             <element signature="e#1017#1018#0" expanded="true" />
@@ -1582,6 +1520,14 @@
             <element signature="e#1760#1761#0" expanded="true" />
             <element signature="e#1802#1803#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
