@@ -1,2 +1,0 @@
-clone the state of an object at runtime creating a new object in a different
-memory location.

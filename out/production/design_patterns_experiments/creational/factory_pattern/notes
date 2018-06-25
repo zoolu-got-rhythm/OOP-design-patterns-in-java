@@ -1,3 +1,0 @@
-factory pattern allows you to create different sub-types at runtime.
-also hiding the conditional logic from the client when choosing between them,
-allowing better encapsulation.

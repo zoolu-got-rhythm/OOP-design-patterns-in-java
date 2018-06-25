@@ -1,2 +1,0 @@
-semaphore counts number of shared resources at any 1 time via decrementation ?
-mutex/lock
