@@ -1,14 +1,17 @@
 package creational.builder_pattern;
 
 
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
+
 // could extend fields instead, and override methods
 public class LatteBuilder implements CoffeeBuilder{
 
     private String blend;
     private String milk;
-    private boolean hasCream = false;
-    private boolean hasHoney = false;
-    private int sugar = 0;
+    private boolean hasCream;
+    private boolean hasHoney;
+    private int sugar;
 
 
     public LatteBuilder() {
@@ -66,5 +69,23 @@ public class LatteBuilder implements CoffeeBuilder{
 
     public int getSugar() {
         return sugar;
+    }
+
+    @Override
+    public String toString(){
+        StringBuilder s = new StringBuilder();
+        for(Field f : this.getClass().getDeclaredFields()){
+            if (Modifier.isPrivate(f.getModifiers()))
+                f.setAccessible(true);
+            s.append(f.getName());
+            s.append(": ");
+            try {
+                s.append(f.get(this));
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+            s.append("\n");
+        }
+        return s.toString();
     }
 }
